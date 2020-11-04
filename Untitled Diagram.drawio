@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2020-11-04T09:37:58.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="teN7zI8HeXWjSFo9qr15" version="13.8.9-1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-04T09:41:50.500Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="9OObFosxvdPRYKDPYoGo" version="13.8.9-1" type="github">
   <diagram id="PffAFQd2I-EF13QZNPvq" name="Page-1">
-    <mxGraphModel dx="1042" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-10" value="syslog日志收集&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-10" value="syslog防火墙连接日志收集" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="160" y="80" width="580" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-12" value="日志解析" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
@@ -111,7 +111,7 @@
         <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-91" value="查询策略IP列表" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="585" y="475" width="55" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-92" value="统计命中率" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="8tvUs0CyN3Y6ZN8EFVeN-92" value="根据已命中IP和策略IP表计算命中率" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Verdana;align=center;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="682.5" y="475" width="55" height="175" as="geometry" />
         </mxCell>
       </root>
